@@ -192,7 +192,7 @@ flow = "Foreign Gift Amount"
 
 # 1. Filter for Top Public Ivies
 
-df_filtered = df[df[recipi].isin(top_public_ivies)].dropna(subset=[country])
+df_filtered = df[df[recipi].isin(top_4_public_ivies)].dropna(subset=[country])
 
 
 # 2. Group by Country and Institution Name
