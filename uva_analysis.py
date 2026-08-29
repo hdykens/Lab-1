@@ -31,7 +31,6 @@ whole_market= df[df["Institution Name"]!= "University of Virginia"]
 
 top_4_public_ivies = [
     "University of North Carolina - Chapel Hill",
-    "University of Virginia",
     "University of Michigan - Ann Arbor",
     "University of California, Los Angeles",
     "University of California, Berkeley"
