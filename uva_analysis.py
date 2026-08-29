@@ -1,18 +1,18 @@
-#UVA_Analysis
+#UVA_Analysis Instructions
 #Compare with Peers and Market
 # Propose Strategy
-#"Peer" is defined by Top 5 Public Ivies
+#"Peer" is defined by Top 5 Public Ivies as a collective
+
+#Completed by Susanna Huang with the concept help with Hannah Dykens and Hannah Sweazey xD
 
 #SUMMARY:
-#Compared to its Public Ivy peers, UVA is really lagging behind at  $22.2M for foreign donations.
-#UNC hasdouble the amount with $41.3M , while UMich and UC Berkeley are way out of their donating league with $280M+.
-#UVA's current international funding mainly comes from health, pharma, and clinical research in low income countries, specializing in medical contracts.
-#UVA needs to start targeting corporate donors from high income countries (e.g. Japan, Germany, and the UK) and get monetary gifts as opposed to contracts.
-#The Data Science school could collab with the Advancement dept to transition and come up with strategy to transition a specilized clinical porfolio 
-#to a more diversified global corporate portfolio and ensure that UVA continues to be a prestigious R1 research engine.
-#Better yet, we can collab with Darden, Law School, McIntire, etc for connections.
-
-#delete this later-->With UVA building something everyday and the current government budget cuts, UVA better to start hustling and chase them dollas from corporate donors. LOL
+#Compared to its Public Ivy peers in the Top 50 Foreign Funding Flows, UVA lags behind at  $8.4M for foreign donations.
+#UNC has about 3x as much donations, with $23.8M , while UMich, UC Berkeley, UCLA are way out of their donating league in the $200M+ for each university.
+#UVA's current international funding mainly comes from health, pharma, and clinical research, specializing in medical contracts.
+#Meanwhile, the collective peer universities have donations that are mostly high income countries (e.g. Japan, Germany, and the UK) and have twice as much monetary gifts as opposed to contracts.
+#The Data Science school could collab with the Advancement dept strategize on a transition from speccialized clinical porfolio 
+#to a more diversified global corporate portfolio and ensure that UVA continues to be a prestigious R1 research engine given the current political climate.
+#Better yet, we can also call upon Darden, Law School, McIntire, etc for benchmarking and advice on their best practices with getting donations from corporate or indivuals.
 
 
 
@@ -174,12 +174,31 @@ print(market_unique)
 ######################################################
 #UVA Share of the Market
 uva_market_share=((uva_only["Foreign Gift Amount"].sum()/ whole_market["Foreign Gift Amount"].sum()) * 100).round(2)
-print(f"###### UVA Share of the Market#######\n")
-print(uva_market_share)
+print(f"###### UVA Share of the Market by Gift Amount#######\n")
+print(f"{uva_market_share}%")
+
+######################################################
+#Peer share of the Market
+peer_market_share=((top_public_Ivy["Foreign Gift Amount"].sum()/ whole_market["Foreign Gift Amount"].sum()) * 100).round(2)
+print(f"###### Peer Share of the Market by Gift Amount#######\n")
+print(f"{peer_market_share}%")
 
 
+#Peer share of the Market, indivdivual
+unc_only_share= ((unc_only["Foreign Gift Amount"].sum()/ whole_market["Foreign Gift Amount"].sum()) * 100).round(2)
+umich_only_share= ((umich_only["Foreign Gift Amount"].sum()/ whole_market["Foreign Gift Amount"].sum()) * 100).round(2)
+ucberkeley_only_share= ((ucberkeley_only["Foreign Gift Amount"].sum()/ whole_market["Foreign Gift Amount"].sum()) * 100).round(2)
+ucla_only_share= ((ucla_only["Foreign Gift Amount"].sum()/ whole_market["Foreign Gift Amount"].sum()) * 100).round(2)
 
-###################################################################
+print(f"###### Individual Peer Share of the Market by Gift Amount#######\n")
+print(f"{unc_only_share}% for the University of North Carolina - Chapel Hill")
+print(f"{umich_only_share}% for the University of Michican - Ann Harbor")
+print(f"{ucberkeley_only_share}% for UC Berkeley")
+print(f"{ucla_only_share}% for UCLA")
+
+################################
+
+
 ##GRAPH
 
 country = "Country of Giftor"
@@ -249,4 +268,5 @@ fig.update_layout(
 
 )
 
-fig.show() 
+fig.show()
+
