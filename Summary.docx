@@ -1,4 +1,61 @@
-1. Executive Summary: What are your main findings and recommendations, in a single paragraph?
-2. Summarize the results of your initial analyses of overall giving and giving to UVA (1-3 paragraphs).
-3. Describe a strategy for finding new potential sources of money for UVA. What countries or institutions should UVA target, and why? (1-3 paragraphs)
-4. Conclude with a summary of UVA's prospects for increasing foreign giving. (1 paragraph).
+Summary for Lab 1
+By: Hannah Dykens, Susanna Huang, and Hannah Sweazey
+
+Instructions:
+    1. Executive Summary: What are your main findings and recommendations, in a single paragraph?
+    2. Summarize the results of your initial analyses of overall giving and giving to UVA (1-3 paragraphs).
+    3. Describe a strategy for finding new potential sources of money for UVA. What countries or institutions should UVA target, and why? (1-3 paragraphs)
+    4. Conclude with a summary of UVA's prospects for increasing foreign giving. (1 paragraph).
+
+Executive Summary:
+    The University of Virginia (UVA) is currently lacking funding when compared to the top four other Public Ivys*. Much of UVA's foreign 
+funding is currently from foreign corporations specializing in medicine. Thus, there is a lot of untapped potential when it 
+comes to foreign donations. When we made a Sankey diagram including the top 50 donating countries, we noticed that UVA only 
+receives funding from two of them. Some countries that we think UVA should consider forging better relations with include Qatar, Saudi Arabia, 
+Japan, England, China, and Canada. China and England would be the best to start with since they intersect the lists of top donors overall and 
+top donors to the other Public Ivys. We believe that UVA should utilize the reputation of the Darden School of Business to help lead the 
+charge when it comes to UVA receiving contracts and monetary gifts of greater value with foreign nations. In addition, all Schools at UVA
+should look into what types of projects the aforementioned countries have funded in the past and if there are any similarities to projects
+at their School. This would allow for UVA to not be reliant on medical research for foreign funding.
+
+* According to collegeraptor.com, the term "Public Ivys" refers to "colleges and universities that, although they aren’t in the Ivy League, 
+are considered to be on the same level as them." When looking up Public Ivys on Wikipedia, we found 
+The University of North Carolina - Chapel Hill, The University of Michigan - Ann Arbor, The University of California, Los Angeles, 
+The University of California, Berkeley, and UVA to be considered the top five Public Ivys. Thus, we figure that comparing UVA to the 
+other top Public Ivys would be ideal due to their similar statuses.  
+
+Initial Analysis Summary:
+    When examining the gift types of contacts, monetary gifts, and real estate, we noticed that 17,274 funding sources are contracts, 
+10,936 are monetary gifts, and a measly 11 are real estate. Thus, we believe that UVA should solely focus on contracts and monetary gifts. 
+We noticed that Qatar gives the most money in total at $2,706,240,869, while England gives the most gifts by count at 3,655 gifts. 
+Additionally, the largest flow of funding from a single country to a single institution is Qatar to Cornell. This is yet another reason why 
+UVA should partner more heavily with Qatar. The top four foreign nations that give to US academic institutions, in order, are: 
+Qatar at $2,706,240,869, England at $1,464,906,771, China at $1,237,952,112, and Saudi Arabia at $1,065,205,930. With that being said, China
+jumps to the number two donor when summing the donations of Hong Kong (at $887,402,529) and China together. 
+
+    In looking at UVA specifically, we noticed that many of the top ten giftors have names that are related to medical research such as
+"AstraZeneca", "Intrnl Centre Diarrheal Disease", and "Haydom Lutheran Hospital d/b/a Hayd." This signifies that the most substatial funding
+for UVA is due to medical funding, rather than a spread of disciplines at UVA. Additionally, UVA's top giftors are Bangladesh, Sweden, 
+Tanzania, and Switzerland. These countries are not concurrent with the top four donor countries overall. 
+
+    While specifically investigating the monetary gains of UVA's peers, we find that England, Canada, China, and Japan give the most. Thus,
+these countries are attainable for UVA to partner with when considering UVA to be at the same level as the other four Public Ivys.
+
+Strategy:
+    A strategy to obtain new potential sources of money is to have UVA's Darden School of Business reach out to donors in China and England 
+since these countries are both in the list of top givers overall and top givers to other Public Ivys. We think that Darden would be an 
+attractive program for nations to donate to. After building these connections, the Darden School of Business could make connections between 
+these foreign funding entities and other Schools at UVA. Additionally, it would behoove all Schools at UVA to investigate what types of 
+programs donors related to Qatar, Saudi Arabia, Japan, England, China, and Canada typically give to and if any of those programs are similar 
+to projects they are doing. Medical funding would also need to continue to produce lucrative funding for the above changes to be noticeable.
+Thus, if each School were to focus on gaining funding from more lucrative sources, with the Darden School of Business taking the lead, UVA
+may be able to jump from its current standing as the least successful of the Public Ivys to receive foreign funding (as seen on our Sankey
+diagram in the uva_analysis.py file) to being competitive with The University of Michigan - Ann Arbor, 
+The University of California, Los Angeles, and The University of California, Berkeley.
+
+Summary:
+    In summary, UVA has a lot of potential to grow with none of the top four overall foreign donors in the list of UVA's top four donors.
+We believe that a great way to begin tackling this problem is to put the Darden School of Business up to the task with specific action items
+that include securing either contracts or monetary gifts from donors associated with China/England. Additionally, having other Schools
+comb through the types of programs that have been funded before by Qatar, Saudi Arabia, Japan, England, China, and Canada would be beneficial
+and provide UVA with various avenues to broaden foreign funding rather than relying on medical research.
