@@ -1,23 +1,35 @@
-#UVA_Analysis Instructions:
+################UVA_Analysis Instructions##########################
 #Compare with Peers and Market
 #Propose Strategy
 
 
+################Additional Notes########################
 #"Peer" is defined by Top 5 Public Ivies as a collective. We are comparing UVA against the other 4 universities.
 # "Whole Market" is defined by all the universities, including UVA. We are comparing UVA against the whole market for marketshare purposes. 
 # However, for other metrics, we are comparing UVA against everyone else.
 
 #Completed by Hannah Sweazey, Hannah Dykens, and Susanna Huang xD
 
-#SUMMARY:
-#Compared to its Public Ivy peers in the Top 50 Foreign Funding Flows, UVA lags behind at  $8.24M for foreign donations.
-#UNC has about 3x as much donations, with $23.8M , while UMich, UC Berkeley, UCLA are way out of their donating league in the $200M+ for each university.
-#UVA's current international funding mainly comes from health, pharma, and clinical research, specializing in medical contracts.
-#Meanwhile, the collective peer universities have donations that are mostly high income countries (e.g. Japan, Germany, and the UK) and have twice as much monetary gifts as opposed to contracts.
-#The Data Science school could collab with the Advancement dept strategize on a transition from speccialized clinical porfolio
-#to a more diversified global corporate portfolio and ensure that UVA continues to be a prestigious R1 research engine given the current political climate.
-#Better yet, we can also call upon Darden, Law School, McIntire, etc for benchmarking and advice on their best practices with getting donations from corporate or indivuals.
 
+######Used Gemini 3.6 for the following for this page only:##########
+#1) Asked what metrics Advancement depts in higher edu care about. I didn't end up using the metrics for this assignment, but if this was a full-blown research project, then I would.
+#2) Difference between df["Insitution Name"]=="University of Virginia" and df[df["Institution Name"]=="University of Virginia"]
+#3) How to print a "%" after the marketshare calculation
+#4) What each line of code for the graph mean
+#5) Difference between "N= " that was originally at the top of the code for the graph vs. the nlargest() method in the body
+#6) Type of organizations donated to UVA based on the Giftor name
+#7) What the isin() method does
+
+
+##############SUMMARY############### Didn't need to use AI to generate the summary because I just looked at the graph and had some critical thinking.
+#Compared to its Public Ivy peers in the Top 50 Foreign Funding Flows, UVA has the least amount of funds and lags behind at  $8.24M.
+#UNC has about 3x as much donations than UVA, with $23.8M , while UMich, UC Berkeley, UCLA are way out of their donating league in the $200M+ for each university.
+#UVA's current international funding mainly comes from health, pharma, and clinical research, specializing in medical contracts. Not sure if UVA completed the full obligations of the contracts and have
+#received the money yet or this is just anticipated amount. 
+
+#Meanwhile, the collective peer universities have donations that are mostly high income countries (e.g. Japan, Germany, and the UK) and have twice as much monetary gifts as opposed to contracts.
+#The Data Science school could collab with the Advancement dept to strategize con increasing the share of monetary gifts. A more diversified global corporate portfolio can ensure that UVA continues to be a prestigious R1 research engine given the current political climate.
+#Better yet, we can also call upon Darden, Law School, McIntire, etc for benchmarking and advice on their best practices with getting donations from corporate or indivuals.
 
 
 ###########################################################################################################################
@@ -41,6 +53,7 @@ top_4_public_ivies = [
     "University of California, Los Angeles",
     "University of California, Berkeley"
 ]
+
 top_public_Ivy=df[df["Institution Name"].isin(top_4_public_ivies)]
 
 top_5_public_ivies_for_graph = [
